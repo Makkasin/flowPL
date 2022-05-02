@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.11">
+	<ConfigVersions>
+		<Metadata name="Catalog.рсш_ПОТОК_ВнешниеДанные" id="59b4c8a6-d470-4610-87a9-febaa0bee9f8" configVersion="5723dab7e1390709a41a76c3488cc8d5b5fda43f">
+			<Metadata name="Catalog.рсш_ПОТОК_ВнешниеДанные.Attribute.ХранилищеДанных" id="16257021-b800-4eb3-bbea-eb18038e5127"/>
+			<Metadata name="Catalog.рсш_ПОТОК_ВнешниеДанные.Attribute.ТипДанных" id="16ef91cd-5ddf-4547-90e9-31539a979276"/>
+			<Metadata name="Catalog.рсш_ПОТОК_ВнешниеДанные.Attribute.ИмяФайла" id="199fb73f-0489-44c2-9a6c-de0acd4cdfae"/>
+			<Metadata name="Catalog.рсш_ПОТОК_ВнешниеДанные.Attribute.ДатаИзменения" id="4fe539db-8aa5-4b3d-a6de-b8a41c76f845"/>
+			<Metadata name="Catalog.рсш_ПОТОК_ВнешниеДанные.Attribute.Расширение" id="fa01c677-866d-4cad-94fb-e6c82c9590a3"/>
+		</Metadata>
+		<Metadata name="Catalog.рсш_ПОТОК_ВнешниеДанные.Form.ФормаЭлемента" id="81b942b4-e3be-4fbf-a8d3-69b1f41f9d3f" configVersion="00875bd3aeac5494f7aa0610657871eafe0f70cb"/>
+		<Metadata name="Catalog.рсш_ПОТОК_ВнешниеДанные.Form.ФормаЭлемента.Form" id="81b942b4-e3be-4fbf-a8d3-69b1f41f9d3f.0" configVersion="0ecd031b5d2c32459c8eaa1b23f90a60b080a2de"/>
+		<Metadata name="CommonForm.ФормаМакетаУпр" id="d693c13e-2ba9-41ab-b5d4-8091557dbef7" configVersion="b3c904f41f75308fceeb1c2e38d3233186d4cff6"/>
+		<Metadata name="CommonForm.ФормаМакетаУпр.Form" id="d693c13e-2ba9-41ab-b5d4-8091557dbef7.0" configVersion="f73420f6f5aaad882a45504a8382e92afb42bd57"/>
+		<Metadata name="CommonModule.Рсш_Поток_Общий" id="794c20f5-90ab-4a74-bebf-2d5ce809ada3" configVersion="3aca4148ceb4438871172ca1b04a23c410d78088"/>
+		<Metadata name="CommonModule.Рсш_Поток_Общий.Module" id="794c20f5-90ab-4a74-bebf-2d5ce809ada3.0" configVersion="8bf6ce374c74f9af7ed87874f39fabfc6d08e3ae"/>
+		<Metadata name="CommonModule.глСервер" id="be1facfa-c3ac-4c2a-ba74-611c4e35dccf" configVersion="0fc2f0d17e3e75e9dc6e2c44a85783aaba2c172a"/>
+		<Metadata name="CommonModule.глСервер.Module" id="be1facfa-c3ac-4c2a-ba74-611c4e35dccf.0" configVersion="24f580ed440927f2cf9f0439961b4518a3ee07fb"/>
+		<Metadata name="Configuration.рсш_ПОТОК" id="c522cf81-b8bc-43ce-8847-5d790e255730" configVersion="13e825fe208400f780e43edd8e466aff278c9b10"/>
+		<Metadata name="Enum.рсш_ПОТОК_ТипДанных" id="f052db9b-717c-460a-94de-6f166c715f39" configVersion="c929b9609d0bdea4da21ffa87b90a08e20683f88">
+			<Metadata name="Enum.рсш_ПОТОК_ТипДанных.EnumValue.ПечатнаяФормаРазнарядки" id="96a985b6-fd82-493a-97e4-f33f100776fb"/>
+		</Metadata>
+		<Metadata name="HTTPService.flowAPI" id="560fb776-8c63-4291-bfa0-e87d484c9586" configVersion="027fb19ac80e92f514f89576932ce8c4d02f6f73">
+			<Metadata name="HTTPService.flowAPI.URLTemplate.GET.Method.GET" id="0582ef93-de4a-4650-b1a6-1810d2ec6714"/>
+			<Metadata name="HTTPService.flowAPI.URLTemplate.GET.Method.POST" id="27c610ae-d95a-441b-a35b-7e0520b9a966"/>
+			<Metadata name="HTTPService.flowAPI.URLTemplate.GET" id="dbf80dc8-bc03-4c68-89d8-c001f38e9a15"/>
+		</Metadata>
+		<Metadata name="HTTPService.flowAPI.Module" id="560fb776-8c63-4291-bfa0-e87d484c9586.0" configVersion="2fe8d7667194856adb780b3c4ae9a759ec2883d1"/>
+		<Metadata name="InformationRegister.рсш_ПОТОК_БазыОрганизаций" id="95b7e32d-895b-4a9c-bacb-9d1a7c68cbf8" configVersion="b0bd02e646c9ad58587ed1b6b1dbc1032c30ed45">
+			<Metadata name="InformationRegister.рсш_ПОТОК_БазыОрганизаций.Dimension.GUID" id="0a2626cc-3b55-4841-a60c-3a5be1f33415"/>
+			<Metadata name="InformationRegister.рсш_ПОТОК_БазыОрганизаций.Attribute.ВнутреннийАдрес" id="2f602f64-d141-422e-b4c1-07b785da9bb0"/>
+			<Metadata name="InformationRegister.рсш_ПОТОК_БазыОрганизаций.Attribute.ВнешнийАдрес" id="512f65d8-1291-4867-b5e5-e3e9b833995c"/>
+			<Metadata name="InformationRegister.рсш_ПОТОК_БазыОрганизаций.Attribute.Наименование" id="5f6992c3-353a-4b23-b6a5-3170a1dbc602"/>
+			<Metadata name="InformationRegister.рсш_ПОТОК_БазыОрганизаций.Attribute.ShortName" id="a6244027-33cd-4012-89d3-b57ab15ab5b4"/>
+			<Metadata name="InformationRegister.рсш_ПОТОК_БазыОрганизаций.Attribute.APIrest" id="b23d3686-85a8-4995-bd0c-95291005d69d"/>
+			<Metadata name="InformationRegister.рсш_ПОТОК_БазыОрганизаций.Attribute.Код" id="c04263a6-8fbc-4231-b269-7926de904004"/>
+			<Metadata name="InformationRegister.рсш_ПОТОК_БазыОрганизаций.Attribute.ВнешнийАдресENT" id="c266866d-2e96-4dc9-97bb-e1d11f649a4e"/>
+			<Metadata name="InformationRegister.рсш_ПОТОК_БазыОрганизаций.Attribute.ВнутреннийАдресENT" id="e508f5d3-8780-4734-bf1b-3afe18751a5e"/>
+			<Metadata name="InformationRegister.рсш_ПОТОК_БазыОрганизаций.Attribute.APIrestENT" id="ec72a526-2ecc-4c4d-8c37-25669de62886"/>
+			<Metadata name="InformationRegister.рсш_ПОТОК_БазыОрганизаций.Attribute.КодРегиона" id="f4cfa112-457f-40d6-b78a-38efcf66af1f"/>
+		</Metadata>
+		<Metadata name="InformationRegister.рсш_ПОТОК_БазыОрганизаций.Form.ФормаСписка" id="9b254700-bbdf-432a-ab62-1b83b7961226" configVersion="cdfac857aec86c30685eafac289cee570f9a7f98"/>
+		<Metadata name="InformationRegister.рсш_ПОТОК_БазыОрганизаций.Form.ФормаСписка.Form" id="9b254700-bbdf-432a-ab62-1b83b7961226.0" configVersion="1b1bab5a44fd41cecf8b828404396e33fa1f80d9"/>
+		<Metadata name="InformationRegister.рсш_ПОТОК_ДанныеСинхронизаци" id="8c8405c2-894d-4812-aab8-0bbee6c340b9" configVersion="56df27ba82cae3c269ef471fe148fc81faa0a5e6">
+			<Metadata name="InformationRegister.рсш_ПОТОК_ДанныеСинхронизаци.Attribute.ДатаСинхронизации" id="43fa311d-4c66-4281-86e9-88deff1c30a9"/>
+			<Metadata name="InformationRegister.рсш_ПОТОК_ДанныеСинхронизаци.Dimension.ИмяМетаданных" id="8133a304-978c-4231-a1f2-720229885e0a"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="e72ccc79-e594-4fca-9a5e-11aff790f70c" configVersion="33dd64d055b56ea90202b44975f33a2ce246679c"/>
+		<Metadata name="Role.рсш_ПОТОК_ОсновнаяРоль" id="0412195b-9c13-4e01-adb9-81a05fbd0e28" configVersion="00daf9fe71723836fd290caab7f8aede1c7d6484"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

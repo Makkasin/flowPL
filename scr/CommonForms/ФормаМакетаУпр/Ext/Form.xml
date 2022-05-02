@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<AutoTitle>false</AutoTitle>
+	<VerticalSpacing>Half</VerticalSpacing>
+	<ScalingMode>Compact</ScalingMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="6">
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="7"/>
+			<ChildItems>
+				<Button name="ЗаписатьИЗакрыть" id="4">
+					<Type>UsualButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>Form.Command.ЗаписатьИЗакрыть</CommandName>
+					<ExtendedTooltip name="ЗаписатьИЗакрытьРасширеннаяПодсказка" id="5"/>
+				</Button>
+				<UsualGroup name="Группа4" id="20">
+					<HorizontalStretch>true</HorizontalStretch>
+					<VerticalStretch>true</VerticalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<Group>Horizontal</Group>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<VerticalAlign>Center</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="21"/>
+					<ChildItems>
+						<Button name="КнопкаОтменить" id="10">
+							<Type>UsualButton</Type>
+							<Representation>Picture</Representation>
+							<Width>3</Width>
+							<CommandName>Form.Item.фТабличныйДокумент.StandardCommand.Undo</CommandName>
+							<ExtendedTooltip name="КнопкаОтменитьРасширеннаяПодсказка" id="11"/>
+						</Button>
+						<Button name="КнопкаВернуть" id="12">
+							<Type>UsualButton</Type>
+							<Representation>Picture</Representation>
+							<Width>3</Width>
+							<CommandName>Form.Item.фТабличныйДокумент.StandardCommand.Redo</CommandName>
+							<ExtendedTooltip name="КнопкаВернутьРасширеннаяПодсказка" id="13"/>
+						</Button>
+						<Button name="Кнопка1" id="16">
+							<Type>UsualButton</Type>
+							<Representation>Picture</Representation>
+							<Width>3</Width>
+							<CommandName>Form.Item.фТабличныйДокумент.StandardCommand.BorderOutline</CommandName>
+							<ExtendedTooltip name="Кнопка1РасширеннаяПодсказка" id="17"/>
+						</Button>
+						<Button name="Кнопка2" id="18">
+							<Type>UsualButton</Type>
+							<Representation>Picture</Representation>
+							<Width>3</Width>
+							<CommandName>Form.Item.фТабличныйДокумент.StandardCommand.Properties</CommandName>
+							<ExtendedTooltip name="Кнопка2РасширеннаяПодсказка" id="19"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<LabelDecoration name="Декорация2" id="25">
+					<Width>500</Width>
+					<HorizontalStretch>true</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<VerticalAlign>Center</VerticalAlign>
+					<ContextMenu name="Декорация2КонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="27"/>
+				</LabelDecoration>
+				<CommandBar name="Группа3" id="14">
+					<HorizontalStretch>false</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<CommandSource>Item.фТабличныйДокумент</CommandSource>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="15"/>
+				</CommandBar>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="8">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="9"/>
+			<ChildItems>
+				<SpreadSheetDocumentField name="фТабличныйДокумент" id="1">
+					<DataPath>фТабличныйДокумент</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<Width>120</Width>
+					<Height>30</Height>
+					<ShowGrid>true</ShowGrid>
+					<ShowHeaders>true</ShowHeaders>
+					<ShowRowAndColumnNames>true</ShowRowAndColumnNames>
+					<ContextMenu name="фТабличныйДокументКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="фТабличныйДокументРасширеннаяПодсказка" id="3"/>
+				</SpreadSheetDocumentField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="фТабличныйДокумент" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ф табличный документ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="фАдресВременногоХранилища" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ф адрес временного хранилища</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="фИмяДокумента" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ф имя документа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаписатьИЗакрыть" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать и закрыть</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать и закрыть</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаписатьИЗакрыть</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>
